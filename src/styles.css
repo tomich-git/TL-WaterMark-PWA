@@ -1,0 +1,42 @@
+html {
+    height: 100vh;
+    font-family: sans-serif !important;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #1bb1fe;
+}
+
+button {
+    background-color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 4px 12px;
+    font-weight: 900;
+}
+
+input[type=text] {
+    font-size: 16px;
+    padding: 2px 6px;
+    width: 320px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-h {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}

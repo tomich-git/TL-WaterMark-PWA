@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "WatermarkFont";
+    src: url("/fonts/watermark.ttf") format("truetype");
+}
+
+.title {
+    color: #1bb1fe;
+    background-color: #f7f7f7;
+    font-weight: 600;    
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.description {
+    margin: 14px;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: small;
+}
+
+.center-item {
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    max-height: 768px;
+    object-fit: contain;
+}
+
+.canvas-container {
+    padding: 16px;
+}
+
+.input-text-info {
+    background-color: #f7f7f7;
+    width: fit-content;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 24px;
+}
+
+.checkbox {
+    margin-top: 4px;
+    color: white;
+    margin-bottom: 16px;
+}

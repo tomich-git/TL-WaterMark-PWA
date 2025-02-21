@@ -1,0 +1,36 @@
+<div class="flex-h full-height">
+    <div class="flex-auto">
+        <div class="title">TicLabs WaterMark</div>
+        <div *ngIf="!selectedFile" class="description">
+            <div>TicLabs WaterMark - Protege tus documentos (imágenes) sensibles de forma fácil y segura</div>
+            <div>🔹 Totalmente gratuita y de código abierto.</div>
+            <div>🔹 Sin registros, sin rastreo, sin almacenamiento en servidores.</div>
+            <div>🔹 Funciona completamente offline.</div>
+            <br/>
+            <div>En el mundo digital, compartir documentos sensibles es inevitable. TicLabs WaterMark nace para ayudarte a proteger tu información sin complicaciones. Con esta herramienta, puedes añadir fácilmente una marca de agua a cualquier documento antes de compartirlo, asegurando que tu contenido no sea reutilizado sin permiso.</div>
+            <br/>
+            <div>🔐 Privacidad 100% garantizada: No recopilamos datos ni guardamos nada en servidores. Todo el procesamiento se realiza en tu dispositivo.</div>
+            <div>📶 Modo offline real: Puedes usar la aplicación sin conexión a internet, pruébalo desconectando tu red.</div>
+            <div>🆓 Gratis para siempre: No hay versiones de pago, suscripciones ni anuncios ocultos.</div>
+            <div>🛠 Código abierto y personalizable: Disponible en GitHub bajo licencia MIT. Puedes modificarla a tu gusto, siempre mencionando a TicLabs como desarrollador original.</div>
+            <br/>
+            <div>🔗 Descarga el código en GitHub y contribuye al proyecto: <a href="https://github.com/tomich-git/tl-watermark">aquí</a></div>
+            <br/>
+            <div>Una herramienta creada con el propósito de ayudar, porque en TicLabs creemos en la transparencia y en el acceso libre a la tecnología. 🚀</div>
+        </div>
+        <div [hidden]="!selectedFile" class="canvas-container center-item">
+            <canvas #canvas></canvas>
+            <div class="center-item">
+                <div class="input-text-info">Indique el texto a mostrar en la marca de agua, por ejemplo: "Copia para [nombre de la empresa] - Solo para [propósito, ej. verificación de identidad]"</div>
+                <div><input type="text" (keyup)="onChangedText($event)"></div>
+                <div class="checkbox"><input type="checkbox" [checked]="!singleLine" (click)="onChangeMultiLine($event)">Multi-línea.</div>       
+                <div><button *ngIf="selectedFile" mat-button (click)="downloadImage()">Descargar Imagen</button></div>
+            </div>
+        </div>
+        <div class="center-item">
+            <input *ngIf="!selectedFile" type="file" id="fileInput" (change)="onFileSelected($event)" accept="image/*" hidden />
+            <button *ngIf="!selectedFile" mat-button (click)="triggerFileInput()">Seleccione una imagen</button>   
+        </div>
+    </div>
+    <app-foot></app-foot>
+</div>
