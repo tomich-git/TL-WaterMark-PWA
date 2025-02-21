@@ -1,5 +1,6 @@
 # TLWaterMarkPWA
 
+## Español
 <div>TicLabs WaterMark - Protege tus documentos (imágenes) sensibles de forma fácil y segura</div>
 <div>🔹 Totalmente gratuita y de código abierto.</div>
 <div>🔹 Sin registros, sin rastreo, sin almacenamiento en servidores.</div>
@@ -15,6 +16,26 @@
 <div>🔗 Descarga el código en GitHub y contribuye al proyecto: <a href="https://github.com/tomich-git/TL-WaterMark-PWA">aquí</a></div>
 <br/>
 <div>Una herramienta creada con el propósito de ayudar, porque en TicLabs creemos en la transparencia y en el acceso libre a la tecnología. 🚀</div>
+
+## English
+<div>TicLabs WaterMark - Protect your sensitive documents (images) easily and securely</div>
+<div>🔹 Completely free and open-source.</div>
+<div>🔹 No registration, no tracking, no server storage.</div>
+<div>🔹 Fully works offline.</div>
+<br/>
+<div>In the digital world, sharing sensitive documents is inevitable. TicLabs WaterMark was created to help you protect your information without complications. With this tool, you can easily add a watermark to any document before sharing it, ensuring that your content is not reused without permission.</div>
+<br/>
+<div>🔐 100% Privacy Guaranteed: We don't collect any data or store anything on servers. All processing is done on your device.</div>
+<div>📶 Real offline mode: You can use the app without an internet connection, try it by disconnecting your network.</div>
+<div>🆓 Free forever: No paid versions, subscriptions, or hidden ads.</div>
+<div>🛠 Open-source and customizable: Available on GitHub under the MIT license. You can modify it as you wish, always mentioning TicLabs as the original developer.</div>
+<br/>
+<div>🔗 Download the code on GitHub and contribute to the project: <a href="https://github.com/tomich-git/TL-WaterMark-PWA">here</a></div>
+<br/>
+<div>A tool created with the purpose of helping, because at TicLabs, we believe in transparency and free access to technology. 🚀</div>
+
+
+## Info
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
 
